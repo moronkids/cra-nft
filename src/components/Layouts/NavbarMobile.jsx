@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { Hooks } from "providers";
-//tesdf
+//tesdfs
 function NavbarMobile() {
   const { barMobile, setBarMobile } = useContext(Hooks);
   useEffect(() => {}, [barMobile]);
