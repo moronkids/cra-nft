@@ -34,7 +34,7 @@ function Desc() {
                       src="https://i.ibb.co/h94V2dv/pizza.png"
                       alt=""
                       srcset=""
-                      height="60px"
+                      height="100px"
                       width="auto"
                       style={{
                         // position: "absolute",
@@ -43,7 +43,7 @@ function Desc() {
                       }}
                     />
                   </div>
-                  <div>
+                  <p>
                     NFT Pizzeria is a collection of 3174 uniquely and
                     algorithmically generated humanized Pizza Slice. Owning a
                     NFT pizzeria, is not just holding an NFT but it’s also
@@ -54,7 +54,7 @@ function Desc() {
                     NFT Pizza Slice. Once the 100 Pizza Slice will be made, NFT
                     Pizzeria will be open randomly during the week and will let
                     few lucky Discord members to order customized pizza.
-                  </div>
+                  </p>
                 </div>
               </li>
             </Fade>
@@ -63,12 +63,12 @@ function Desc() {
                 <div className="title">
                   Pizza isn’t a trend, it’s a way of life
                 </div>
-                <div>
+                <p>
                   NFT Pizza Slice = 0.99 SOL <br /> Unique Pizza Slice <br />{" "}
                   Earning will build the first NFT Physical Pizzeria in the
                   world <br /> Lucky Members will be able to customize their NFT
                   Pizza Slice
-                </div>
+                </p>
               </li>
             </Fade>
             <Fade bottom>
@@ -76,7 +76,7 @@ function Desc() {
                 <div className="title">
                   Focus 100% on the NFT Pizzeria Holders
                 </div>
-                <div>
+                <p>
                   We are working so hard to make NFT Pizzeria holders proud of
                   our work. Holders will have access to exclusive giveaways,
                   prizes, whitelist for future NFT project but most important
@@ -91,7 +91,7 @@ function Desc() {
                   weekly but limited giveaways where you will have the chance to
                   customize your own pizza slice. We will open the digital NFT
                   pizzeria randomly, so be active.
-                </div>
+                </p>
               </li>
             </Fade>
             <Fade bottom>

@@ -93,6 +93,9 @@
         & .container {
             // text-align: left;
         }
+        p {
+            line-height: 160%;
+        }
         img {
             border-radius: 35px;
         }
@@ -125,7 +128,11 @@
                 display: block;
                 margin: 0 auto;
                 // text-align: center;
+                img {
+                    width: 200px !important;
+                }
             }
+
             // style={{
             //         display: "flex",
             //         flexDirection: "row",
