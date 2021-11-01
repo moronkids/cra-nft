@@ -33,15 +33,47 @@ export default function SinglePage(props) {
       >
         <Page pageNumber={pageNumber} />
       </Document>
-      <div>
-        <p>
+      <div
+        style={{
+          textAlign: "center",
+          margin: "0 auto",
+        }}
+      >
+        <p
+          style={{
+            color: "white",
+          }}
+        >
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
-        <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
+        <button
+          type="button"
+          style={{
+            fontSize: "18px",
+            padding: "8px",
+            color: "white",
+            backgroundColor: pageNumber <= 1 ? "gray" : "orange",
+            borderRadius: "5px",
+            marginRight: "5px",
+            borderColor: "none !important",
+            border: "unset",
+          }}
+          disabled={pageNumber <= 1}
+          onClick={previousPage}
+        >
           Previous
         </button>
         <button
           type="button"
+          style={{
+            fontSize: "18px",
+            padding: "8px",
+            color: "white",
+            backgroundColor: pageNumber >= numPages ? "gray" : "orange",
+            borderRadius: "5px",
+            borderColor: "none !important",
+            border: "unset",
+          }}
           disabled={pageNumber >= numPages}
           onClick={nextPage}
         >
