@@ -59,10 +59,10 @@ function Desc() {
               </li>
             </Fade>
             <Fade bottom>
+              <div className="title" style={{ textAlign: "center" }}>
+                <i>"Pizza isn’t a trend, it’s a way of life"</i>
+              </div>
               <li>
-                <div className="title">
-                  Pizza isn’t a trend, it’s a way of life
-                </div>
                 <p>
                   NFT Pizza Slice = 0.99 SOL <br /> Unique Pizza Slice <br />{" "}
                   Earning will build the first NFT Physical Pizzeria in the
@@ -95,10 +95,12 @@ function Desc() {
               </li>
             </Fade>
             <Fade bottom>
+              <div className="title" style={{ textAlign: "center" }}>
+                <i>
+                  "LONG TERM MIDSET: the best NFT investment you can ever make."
+                </i>
+              </div>
               <li>
-                <div className="title">
-                  LONG TERM MIDSET: the best NFT investment you can ever make.
-                </div>
                 <div>
                   <img src={Roadmap} alt="" width="100%" height="100%" />
                 </div>
