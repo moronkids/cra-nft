@@ -104,6 +104,9 @@
             // background-position: cover;
             padding-left: 0px;
             list-style: none;
+            @media (max-width: 524px) {
+                margin-top: 0px;
+            }
             div {
             }
             li {
