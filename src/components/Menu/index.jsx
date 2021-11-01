@@ -10,7 +10,7 @@ function Index() {
             <h1>200</h1>
             <h2>DUCKS REMAINING</h2>
           </div>
-          <div className="menu-purchase__btn">PURCHASE</div>
+          <div className="menu-purchase__btn connect">PURCHASE</div>
         </div>
       </div>
     </>
