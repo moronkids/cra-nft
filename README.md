@@ -5,7 +5,7 @@ how to run this app..
 4. type : npm start
 
 <br/>
----------------- note --------------
-if you wanna run as e production build
-1. npm run build
-2. npm run serve
+---------------- note --------------<br/>
+if you wanna run as e production build<br/>
+1. npm run build<br/>
+2. npm run serve/ npm serve
