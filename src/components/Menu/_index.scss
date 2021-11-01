@@ -8,6 +8,9 @@
     padding: 30px;
     border: 1px white solid;
     border-radius: 10px;
+    @media (max-width: 524px) {
+        margin: 20px;
+    }
     &__box {
         p {
             font-size: 30px;
@@ -39,5 +42,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @med;
     }
 }

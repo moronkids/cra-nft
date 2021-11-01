@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { Hooks } from "providers";
 import pdf from "assets/nft-pizza.pdf";
+import { Link } from "react-router-dom";
 function BarMobile() {
   const { barMobile, setBarMobile } = useContext(Hooks);
   useEffect(() => {}, [barMobile]);
@@ -9,13 +10,13 @@ function BarMobile() {
       <div className={`bar-mobile ${barMobile && "active"}`}>
         <ul>
           <li>
-            <a
-              href={pdf}
+            <Link
+              to="/menu-mobile"
               target="_blank"
               onClick={() => setBarMobile(!barMobile)}
             >
               Menu
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#home-desc" onClick={() => setBarMobile(!barMobile)}>
